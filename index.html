@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Local storage</title>
+</head>
+
+<body>
+    <h1 class="heading">Local Storage </h1>
+
+    <!-- Input Fields -->
+
+    <div id="inputFields">
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" id="name" placeholder="Name"> <br>
+
+            <label for="Age">Age</label>
+            <input type="text" id="age" placeholder="Age"><br>
+
+            <label for="Gender">Gender</label>
+            <input type="text" id="gender" placeholder="Gender"><br>
+
+            <label for="Occupation">Occupation</label><br>
+            <input type="text" id="occupation" placeholder="Occupation"><br>
+
+            <label for="Salary">Salary</label>
+            <input type="text" id="salary" placeholder="Salary"><br>
+
+            <label for="Contact No.">Contact No.</label><br>
+            <input type="text" id="contact" placeholder="Contact No."><br>
+        </div>
+    </div>
+    <br>
+
+    <div class="btnWrapper">
+        <div>
+            <button class="btn" id="saveButton">Save Data</button>
+
+            <!-- extra feater to clear all data -->
+            <button class="btn" id="clearButton">Clear All Data</button>
+        </div>
+    </div>
+
+    <!-- Table data will be show here -->
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Occupation</th>
+                <th>Salary</th>
+                <th>Contact No.</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody">
+            <!-- Table data -->
+        </tbody>
+    </table>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

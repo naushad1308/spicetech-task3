@@ -1,0 +1,121 @@
+#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#dataTable th,
+#dataTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#dataTable th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+#dataTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#dataTable tr:hover {
+    background-color: #ddd;
+}
+
+/* No Data Row Styles */
+
+#noDataRow {
+    background-color: #fff;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+#noDataRow td {
+    padding: 20px;
+}
+
+/* Input Field Styles */
+.heading {
+    text-align: center;
+}
+
+#inputFields {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inputFields label {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    vertical-align: top;
+}
+
+#inputFields input[type="text"] {
+    width: 90%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#inputFields input[type="text"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background: red; */
+    margin-bottom: 20px;
+}
+
+.btnWrapper>div {
+    /* background: green; */
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+
+/* buton style */
+.btn {
+    background: #3498db;
+
+
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 6px 20px 6px 20px;
+    /* text-decoration: none; */
+    border: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+
+    text-decoration: none;
+}
+
+#clearButton {
+    background-color: rgb(238, 54, 54);
+}
+
+#clearButton:hover {
+    background: rgb(206, 55, 55);
+}
