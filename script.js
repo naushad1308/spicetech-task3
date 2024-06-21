@@ -59,6 +59,7 @@ const saveButton = document.querySelector("#saveButton")
 saveButton.addEventListener("click", saveData)
 
 
+// Load Data on page load
 function loadDataOnPageLoad() {
     const savedData = JSON.parse(localStorage.getItem('formData'));
     if (savedData && Object.keys(savedData).length > 0) {
